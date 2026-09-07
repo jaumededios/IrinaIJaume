@@ -206,9 +206,9 @@ a {
 
 /* The added information follows the source Google Doc's simple structure. */
 .document {
-  width: min(100%, 76rem);
+  width: min(100%, 70rem);
   margin: 0 auto;
-  padding: 0 clamp(2rem, 6vw, 5rem);
+  padding: 0 clamp(2rem, 7vw, 6rem);
 }
 
 .document-body {
@@ -244,16 +244,17 @@ h3 {
 }
 
 .schedule {
-  width: min(43rem, 100%);
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  gap: 0.65em 1.4rem;
+  width: 100%;
   margin: 0 auto;
   padding: 0.25rem 0 0;
 }
 
 .schedule p {
-  display: grid;
-  grid-template-columns: 9rem minmax(0, 1fr);
-  gap: 1.4rem;
-  margin-bottom: 0.75em;
+  display: contents;
 }
 
 .schedule time {
@@ -307,8 +308,13 @@ footer {
   }
 
   .schedule p {
+    display: contents;
+  }
+
+  .schedule {
     grid-template-columns: 6.5rem minmax(0, 1fr);
-    gap: 0.9rem;
+    justify-content: stretch;
+    gap: 0.65em 0.9rem;
   }
 }
 
