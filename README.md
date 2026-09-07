@@ -16,4 +16,4 @@ Then open `http://localhost:8000`.
 
 Every push to `main` deploys automatically through GitHub Actions:
 
-<https://jaumededios.github.io/irinaijaume/>
+<https://jaume.dedios.cat/IrinaIJaume/>
