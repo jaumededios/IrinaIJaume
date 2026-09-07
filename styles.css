@@ -150,6 +150,7 @@ a {
   margin: 0.24em 0 0.12em;
   font-size: 0.38em;
   font-weight: 400;
+  transform: translateY(0.08em);
 }
 
 .date-line,
